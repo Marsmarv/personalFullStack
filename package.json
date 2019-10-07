@@ -11,7 +11,11 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.4",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0"
   },
   "devDependencies": {},
   "scripts": {
