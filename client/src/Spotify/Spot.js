@@ -33,7 +33,7 @@ class Spot extends Component{
     getNowPlaying(){
       spotifyWebApi.getMyCurrentPlaybackState()
       .then(response => {
-        console.log(response)
+        console.log("this is response: ",response)
         this.setState(response && response.currently_playing_type === "track" ? {
           nowPlaying: {
             name: response.item.name,
