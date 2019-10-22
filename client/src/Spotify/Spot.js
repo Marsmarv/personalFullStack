@@ -54,7 +54,7 @@ class Spot extends Component{
   render() {
     return (
       <div className="spotify-container">
-        <div className='Spot'><a href='http://localhost:8888'> Login to Spotify </a></div>
+        <div className='Spot'><a href='/login.html'> Login to Spotify </a></div>
         <div className="size">  {this.state.nowPlaying.name.value === "undefined" ? null : `Now Playing: ${ this.state.nowPlaying.name }` } </div>
         <div className="size"> Artist: { this.state.nowPlaying.artist } </div>
         <div><img src={this.state.nowPlaying.image} style={{width: 100}}alt=""/></div>
